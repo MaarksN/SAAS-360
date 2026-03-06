@@ -1,0 +1,20 @@
+{
+  "name": "birthhub360",
+  "private": true,
+  "packageManager": "npm@10.8.2",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.1.1",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2"
+  }
+}
