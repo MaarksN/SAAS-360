@@ -3,7 +3,9 @@
   "private": true,
   "packageManager": "npm@10.8.2",
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "packages/*",
+    "packages/agent-packs/*"
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
