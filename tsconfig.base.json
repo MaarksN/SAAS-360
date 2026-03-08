@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@birthhub/agents-core": [
+        "packages/agents-core/src/index.ts"
+      ],
+      "@birthhub/agents-registry": [
+        "packages/agents-registry/src/index.ts"
+      ],
+      "@birthhub/agent-pack-corporate-v1": [
+        "packages/agent-packs/corporate-v1/src/index.ts"
+      ]
+    }
+  }
+}
