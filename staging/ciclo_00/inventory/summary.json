@@ -1,0 +1,26 @@
+{
+  "count": 456,
+  "ext": {
+    ".md": 7,
+    ".disabled": 1,
+    ".py": 78,
+    ".txt": 15,
+    "(sem_ext)": 63,
+    ".json": 20,
+    ".pyc": 10,
+    ".gitkeep": 4,
+    ".ts": 182,
+    ".yaml": 1,
+    ".example": 1,
+    ".tsx": 52,
+    ".mjs": 2,
+    ".css": 1,
+    ".yml": 1,
+    ".tf": 4,
+    ".log": 1,
+    ".sql": 10,
+    ".toml": 1,
+    ".prisma": 1,
+    ".sh": 1
+  }
+}

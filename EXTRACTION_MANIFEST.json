@@ -1,0 +1,2770 @@
+{
+  "source_archive": "SAAS BIRTHUB 360.rar",
+  "source_archive_sha256": "9996c0fdede83195f7f58829f2adc413c23b49e4076a9b2e98dc34b337ea1500",
+  "inventory_method": "strings -n 8 + regex de path; sem extração binária por limitação de ferramenta RAR no ambiente",
+  "totals": {
+    "detected_paths": 456,
+    "normalized_paths": 456,
+    "extensions": {
+      ".md": 7,
+      ".disabled": 1,
+      ".py": 78,
+      ".txt": 15,
+      "(sem_ext)": 63,
+      ".json": 20,
+      ".pyc": 10,
+      ".gitkeep": 4,
+      ".ts": 182,
+      ".yaml": 1,
+      ".example": 1,
+      ".tsx": 52,
+      ".mjs": 2,
+      ".css": 1,
+      ".yml": 1,
+      ".tf": 4,
+      ".log": 1,
+      ".sql": 10,
+      ".toml": 1,
+      ".prisma": 1,
+      ".sh": 1
+    }
+  },
+  "files": [
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/.github/pull_request_template.md",
+      "normalized_path": ".github/pull_request_template.md",
+      "category": "ci_cd",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/.github/workflows/ci.yml.disabled",
+      "normalized_path": ".github/workflows/ci.yml.disabled",
+      "category": "ci_cd",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/account_manager/agent.py",
+      "normalized_path": "agents/account_manager/agent.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/account_manager/tests/test_agent.py",
+      "normalized_path": "agents/account_manager/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/account_manager/tests/test_tools.py",
+      "normalized_path": "agents/account_manager/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/account_manager/tools.py",
+      "normalized_path": "agents/account_manager/tools.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ae/tests/test_ae_agent.py",
+      "normalized_path": "agents/ae/tests/test_ae_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ae/tests/test_ae_tools.py",
+      "normalized_path": "agents/ae/tests/test_ae_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/analista/requirements.txt",
+      "normalized_path": "agents/analista/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/analista/tests/test_agent.py",
+      "normalized_path": "agents/analista/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/analista/tests/test_tools.py",
+      "normalized_path": "agents/analista/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/closer/requirements.txt",
+      "normalized_path": "agents/closer/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/closer/tests/test_agent.py",
+      "normalized_path": "agents/closer/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/closer/tests/test_tools.py",
+      "normalized_path": "agents/closer/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/coordenador_comercial/agent.py",
+      "normalized_path": "agents/coordenador_comercial/agent.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/coordenador_comercial/tests",
+      "normalized_path": "agents/coordenador_comercial/tests",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/coordenador_comercial/tests/test_agent.py",
+      "normalized_path": "agents/coordenador_comercial/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/coordenador_comercial/tests/test_tools.py",
+      "normalized_path": "agents/coordenador_comercial/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/coordenador_comercial/tools.py",
+      "normalized_path": "agents/coordenador_comercial/tools.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/copywriter/requirements.txt",
+      "normalized_path": "agents/copywriter/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/enablement/requirements.txt",
+      "normalized_path": "agents/enablement/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/executivo_negocios/agent.py",
+      "normalized_path": "agents/executivo_negocios/agent.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/executivo_negocios/tests",
+      "normalized_path": "agents/executivo_negocios/tests",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/executivo_negocios/tests/test_agent.py",
+      "normalized_path": "agents/executivo_negocios/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/executivo_negocios/tests/test_tools.py",
+      "normalized_path": "agents/executivo_negocios/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/executivo_negocios/tools.py",
+      "normalized_path": "agents/executivo_negocios/tools.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/financeiro/package.json",
+      "normalized_path": "agents/financeiro/package.json",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/financeiro/requirements.txt",
+      "normalized_path": "agents/financeiro/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/financeiro/tests/test_agent.py",
+      "normalized_path": "agents/financeiro/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/financeiro/tests/test_tools.py",
+      "normalized_path": "agents/financeiro/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/gerente_comercial/agent.py",
+      "normalized_path": "agents/gerente_comercial/agent.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/gerente_comercial/tests",
+      "normalized_path": "agents/gerente_comercial/tests",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/gerente_comercial/tests/test_agent.py",
+      "normalized_path": "agents/gerente_comercial/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/gerente_comercial/tests/test_tools.py",
+      "normalized_path": "agents/gerente_comercial/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/gerente_comercial/tools.py",
+      "normalized_path": "agents/gerente_comercial/tools.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/inside_sales/tests/test_agent.py",
+      "normalized_path": "agents/inside_sales/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/inside_sales/tests/test_tools.py",
+      "normalized_path": "agents/inside_sales/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/juridico/requirements.txt",
+      "normalized_path": "agents/juridico/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/juridico/tests/test_agent.py",
+      "normalized_path": "agents/juridico/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/juridico/tests/test_tools.py",
+      "normalized_path": "agents/juridico/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/__pycache__/__init__.cpython-312.pyc",
+      "normalized_path": "agents/ldr/__pycache__/__init__.cpython-312.pyc",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/__pycache__/agent.cpython-312.pyc",
+      "normalized_path": "agents/ldr/__pycache__/agent.cpython-312.pyc",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/__pycache__/main.cpython-312.pyc",
+      "normalized_path": "agents/ldr/__pycache__/main.cpython-312.pyc",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/__pycache__/prompts.cpython-312.pyc",
+      "normalized_path": "agents/ldr/__pycache__/prompts.cpython-312.pyc",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/__pycache__/schemas.cpython-312.pyc",
+      "normalized_path": "agents/ldr/__pycache__/schemas.cpython-312.pyc",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/__pycache__/tools.cpython-312.pyc",
+      "normalized_path": "agents/ldr/__pycache__/tools.cpython-312.pyc",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/tests/__pycache__/test_agent.cpython-312-pytest-9.0.2.pyc",
+      "normalized_path": "agents/ldr/tests/__pycache__/test_agent.cpython-312-pytest-9.0.2.pyc",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/tests/__pycache__/test_tools.cpython-312-pytest-9.0.2.pyc",
+      "normalized_path": "agents/ldr/tests/__pycache__/test_tools.cpython-312-pytest-9.0.2.pyc",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/tests/test_agent.py",
+      "normalized_path": "agents/ldr/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/tests/test_ldr_agent.py",
+      "normalized_path": "agents/ldr/tests/test_ldr_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/tests/test_score_icp_weighted.py",
+      "normalized_path": "agents/ldr/tests/test_score_icp_weighted.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/ldr/tests/test_tools.py",
+      "normalized_path": "agents/ldr/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/marketing/cadence_engine.py",
+      "normalized_path": "agents/marketing/cadence_engine.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/marketing/requirements.txt",
+      "normalized_path": "agents/marketing/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/marketing/tests/test_agent.py",
+      "normalized_path": "agents/marketing/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/marketing/tests/test_marketing_agent.py",
+      "normalized_path": "agents/marketing/tests/test_marketing_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/marketing/tests/test_marketing_tools.py",
+      "normalized_path": "agents/marketing/tests/test_marketing_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/marketing/tests/test_tools.py",
+      "normalized_path": "agents/marketing/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/parcerias/tests/test_agent.py",
+      "normalized_path": "agents/parcerias/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/parcerias/tests/test_tools.py",
+      "normalized_path": "agents/parcerias/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/partners/requirements.txt",
+      "normalized_path": "agents/partners/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/pos-venda/tests/test_agent.py",
+      "normalized_path": "agents/pos-venda/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/pos_venda/requirements.txt",
+      "normalized_path": "agents/pos_venda/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/pos_venda/tests/test_agent.py",
+      "normalized_path": "agents/pos_venda/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/pos_venda/tests/test_pos_venda_agent.py",
+      "normalized_path": "agents/pos_venda/tests/test_pos_venda_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/pos_venda/tests/test_pos_venda_tools.py",
+      "normalized_path": "agents/pos_venda/tests/test_pos_venda_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/pos_venda/tests/test_tools.py",
+      "normalized_path": "agents/pos_venda/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/pre_sales/requirements.txt",
+      "normalized_path": "agents/pre_sales/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/pre_vendas/tests/test_agent.py",
+      "normalized_path": "agents/pre_vendas/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/pre_vendas/tests/test_tools.py",
+      "normalized_path": "agents/pre_vendas/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/revops/tests/test_agent.py",
+      "normalized_path": "agents/revops/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/revops/tests/test_tools.py",
+      "normalized_path": "agents/revops/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/runtime/tool_registry.py",
+      "normalized_path": "agents/runtime/tool_registry.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/sales_ops/requirements.txt",
+      "normalized_path": "agents/sales_ops/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/sales_ops/tests/test_agent.py",
+      "normalized_path": "agents/sales_ops/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/sales_ops/tests/test_tools.py",
+      "normalized_path": "agents/sales_ops/tests/test_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/sdr/tests/test_agent.py",
+      "normalized_path": "agents/sdr/tests/test_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/sdr/tests/test_sdr_agent.py",
+      "normalized_path": "agents/sdr/tests/test_sdr_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/sdr/tests/test_sdr_tools.py",
+      "normalized_path": "agents/sdr/tests/test_sdr_tools.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/__pycache__/__init__.cpython-312.pyc",
+      "normalized_path": "agents/shared/__pycache__/__init__.cpython-312.pyc",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/__pycache__/base_agent.cpython-312.pyc",
+      "normalized_path": "agents/shared/__pycache__/base_agent.cpython-312.pyc",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/commercial_contracts.py",
+      "normalized_path": "agents/shared/commercial_contracts.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/commercial_playbook.py",
+      "normalized_path": "agents/shared/commercial_playbook.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/live_tool_client.py",
+      "normalized_path": "agents/shared/live_tool_client.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/operational_contract.py",
+      "normalized_path": "agents/shared/operational_contract.py",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/requirements.txt",
+      "normalized_path": "agents/shared/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/tests/conftest.py",
+      "normalized_path": "agents/shared/tests/conftest.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/tests/test_base_agent.py",
+      "normalized_path": "agents/shared/tests/test_base_agent.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/tests/test_commercial_playbook_prompts.py",
+      "normalized_path": "agents/shared/tests/test_commercial_playbook_prompts.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/tests/test_db_pool.py",
+      "normalized_path": "agents/shared/tests/test_db_pool.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/tests/test_operational_contract.py",
+      "normalized_path": "agents/shared/tests/test_operational_contract.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/shared/tests/test_rate_limiter.py",
+      "normalized_path": "agents/shared/tests/test_rate_limiter.py",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/agents/social/requirements.txt",
+      "normalized_path": "agents/social/requirements.txt",
+      "category": "agent_code",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/.gitkeep",
+      "normalized_path": "apps/agent-orchestrator/.gitkeep",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/main.py",
+      "normalized_path": "apps/agent-orchestrator/main.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/orchestrator",
+      "normalized_path": "apps/agent-orchestrator/orchestrator",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/orchestrator/cron.py",
+      "normalized_path": "apps/agent-orchestrator/orchestrator/cron.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/orchestrator/database.py",
+      "normalized_path": "apps/agent-orchestrator/orchestrator/database.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/orchestrator/event_bus.py",
+      "normalized_path": "apps/agent-orchestrator/orchestrator/event_bus.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/orchestrator/flows.py",
+      "normalized_path": "apps/agent-orchestrator/orchestrator/flows.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/orchestrator/worker.py",
+      "normalized_path": "apps/agent-orchestrator/orchestrator/worker.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/package.json",
+      "normalized_path": "apps/agent-orchestrator/package.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/requirements.txt",
+      "normalized_path": "apps/agent-orchestrator/requirements.txt",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/src/agents",
+      "normalized_path": "apps/agent-orchestrator/src/agents",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/src/agents/agent-parsers.test.ts",
+      "normalized_path": "apps/agent-orchestrator/src/agents/agent-parsers.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/src/agents/agent-parsers.ts",
+      "normalized_path": "apps/agent-orchestrator/src/agents/agent-parsers.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/src/agents/ldr-agent.ts",
+      "normalized_path": "apps/agent-orchestrator/src/agents/ldr-agent.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/src/agents/sdr-agent.ts",
+      "normalized_path": "apps/agent-orchestrator/src/agents/sdr-agent.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/src/workers",
+      "normalized_path": "apps/agent-orchestrator/src/workers",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/src/workers/ldr-worker.ts",
+      "normalized_path": "apps/agent-orchestrator/src/workers/ldr-worker.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/src/workers/sdr-worker.ts",
+      "normalized_path": "apps/agent-orchestrator/src/workers/sdr-worker.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/agent-orchestrator/worker.ts",
+      "normalized_path": "apps/agent-orchestrator/worker.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/contracts",
+      "normalized_path": "apps/api-gateway/src/contracts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/contracts/internal-contracts.contract.test.ts",
+      "normalized_path": "apps/api-gateway/src/contracts/internal-contracts.contract.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/contracts/internal-contracts.ts",
+      "normalized_path": "apps/api-gateway/src/contracts/internal-contracts.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/controllers",
+      "normalized_path": "apps/api-gateway/src/controllers",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/controllers/billing.controller.ts",
+      "normalized_path": "apps/api-gateway/src/controllers/billing.controller.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/controllers/lead.controller.ts",
+      "normalized_path": "apps/api-gateway/src/controllers/lead.controller.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/docs/openapi.contract.test.ts",
+      "normalized_path": "apps/api-gateway/src/docs/openapi.contract.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/docs/openapi.ts",
+      "normalized_path": "apps/api-gateway/src/docs/openapi.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/errors/http-error.ts",
+      "normalized_path": "apps/api-gateway/src/errors/http-error.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/errors/lead-errors.ts",
+      "normalized_path": "apps/api-gateway/src/errors/lead-errors.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/integrations",
+      "normalized_path": "apps/api-gateway/src/integrations",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/integrations/__tests__",
+      "normalized_path": "apps/api-gateway/src/integrations/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/integrations/__tests__/payment-adapter.test.ts",
+      "normalized_path": "apps/api-gateway/src/integrations/__tests__/payment-adapter.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/integrations/__tests__/resilience.test.ts",
+      "normalized_path": "apps/api-gateway/src/integrations/__tests__/resilience.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/integrations/error-catalog.ts",
+      "normalized_path": "apps/api-gateway/src/integrations/error-catalog.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/integrations/payment-adapter.ts",
+      "normalized_path": "apps/api-gateway/src/integrations/payment-adapter.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/integrations/resilience.ts",
+      "normalized_path": "apps/api-gateway/src/integrations/resilience.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware",
+      "normalized_path": "apps/api-gateway/src/middleware",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/__tests__",
+      "normalized_path": "apps/api-gateway/src/middleware/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/__tests__/authorization.test.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/__tests__/authorization.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/__tests__/feature-toggle.test.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/__tests__/feature-toggle.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/__tests__/payload-limit.test.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/__tests__/payload-limit.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/__tests__/tenant-rate-limit.test.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/__tests__/tenant-rate-limit.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/__tests__/waf-advanced.test.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/__tests__/waf-advanced.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/__tests__/webhook-idempotency.test.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/__tests__/webhook-idempotency.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/__tests__/webhook-signature.test.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/__tests__/webhook-signature.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/audit-trail.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/audit-trail.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/auth.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/auth.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/authorization.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/authorization.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/correlation.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/correlation.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/feature-toggle.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/feature-toggle.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/idempotency.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/idempotency.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/payload-limit.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/payload-limit.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/plan-guard.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/plan-guard.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/rate-limit.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/rate-limit.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/tenant-binding.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/tenant-binding.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/tenant-context.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/tenant-context.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/tenant-observability.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/tenant-observability.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/tenant-rate-limit.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/tenant-rate-limit.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/validate.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/validate.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/waf-advanced.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/waf-advanced.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/webhook-idempotency.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/webhook-idempotency.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/middleware/webhook-signature.ts",
+      "normalized_path": "apps/api-gateway/src/middleware/webhook-signature.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/openapi.ts",
+      "normalized_path": "apps/api-gateway/src/openapi.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/proxy/service-proxy.ts",
+      "normalized_path": "apps/api-gateway/src/proxy/service-proxy.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories",
+      "normalized_path": "apps/api-gateway/src/repositories",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/__tests__",
+      "normalized_path": "apps/api-gateway/src/repositories/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/__tests__/analytics-repository.test.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/__tests__/analytics-repository.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/__tests__/contract-repository.test.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/__tests__/contract-repository.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/__tests__/customer-repository.test.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/__tests__/customer-repository.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/__tests__/deal-repository.test.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/__tests__/deal-repository.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/__tests__/financial-repository.test.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/__tests__/financial-repository.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/__tests__/lead-repository.test.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/__tests__/lead-repository.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/agent-log-repository.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/agent-log-repository.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/analytics-repository.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/analytics-repository.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/billing.repository.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/billing.repository.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/contract-repository.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/contract-repository.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/customer-repository.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/customer-repository.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/deal-repository.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/deal-repository.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/financial-repository.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/financial-repository.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/lead-repository.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/lead-repository.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/lead.repository.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/lead.repository.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/repositories/marketing-repository.ts",
+      "normalized_path": "apps/api-gateway/src/repositories/marketing-repository.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/__tests__",
+      "normalized_path": "apps/api-gateway/src/routes/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/__tests__/routes.integration.test.ts",
+      "normalized_path": "apps/api-gateway/src/routes/__tests__/routes.integration.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/__tests__/sales-os.test.ts",
+      "normalized_path": "apps/api-gateway/src/routes/__tests__/sales-os.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/admin.ts",
+      "normalized_path": "apps/api-gateway/src/routes/admin.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/agents.ts",
+      "normalized_path": "apps/api-gateway/src/routes/agents.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/auth.ts",
+      "normalized_path": "apps/api-gateway/src/routes/auth.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/calendar.ts",
+      "normalized_path": "apps/api-gateway/src/routes/calendar.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/campaigns.ts",
+      "normalized_path": "apps/api-gateway/src/routes/campaigns.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/index.ts",
+      "normalized_path": "apps/api-gateway/src/routes/index.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/leads.ts",
+      "normalized_path": "apps/api-gateway/src/routes/leads.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/marketing.ts",
+      "normalized_path": "apps/api-gateway/src/routes/marketing.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/reports.ts",
+      "normalized_path": "apps/api-gateway/src/routes/reports.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/routes/webhooks.ts",
+      "normalized_path": "apps/api-gateway/src/routes/webhooks.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/schemas/__tests__",
+      "normalized_path": "apps/api-gateway/src/schemas/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/schemas/__tests__/domain-schemas.test.ts",
+      "normalized_path": "apps/api-gateway/src/schemas/__tests__/domain-schemas.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/schemas/__tests__/engagement-schemas.test.ts",
+      "normalized_path": "apps/api-gateway/src/schemas/__tests__/engagement-schemas.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/schemas/__tests__/lead-schemas.test.ts",
+      "normalized_path": "apps/api-gateway/src/schemas/__tests__/lead-schemas.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/schemas/__tests__/pagination-schemas.test.ts",
+      "normalized_path": "apps/api-gateway/src/schemas/__tests__/pagination-schemas.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/schemas/domain-schemas.ts",
+      "normalized_path": "apps/api-gateway/src/schemas/domain-schemas.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/schemas/engagement-schemas.ts",
+      "normalized_path": "apps/api-gateway/src/schemas/engagement-schemas.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/schemas/lead-schemas.ts",
+      "normalized_path": "apps/api-gateway/src/schemas/lead-schemas.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/schemas/pagination-schemas.ts",
+      "normalized_path": "apps/api-gateway/src/schemas/pagination-schemas.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/scripts/check-conventions.ts",
+      "normalized_path": "apps/api-gateway/src/scripts/check-conventions.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/security/auth-store.ts",
+      "normalized_path": "apps/api-gateway/src/security/auth-store.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/server.ts",
+      "normalized_path": "apps/api-gateway/src/server.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/__tests__",
+      "normalized_path": "apps/api-gateway/src/services/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/__tests__/alert-service.test.ts",
+      "normalized_path": "apps/api-gateway/src/services/__tests__/alert-service.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/__tests__/deal-service.test.ts",
+      "normalized_path": "apps/api-gateway/src/services/__tests__/deal-service.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/__tests__/job-check-service.test.ts",
+      "normalized_path": "apps/api-gateway/src/services/__tests__/job-check-service.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/__tests__/lead-service.test.ts",
+      "normalized_path": "apps/api-gateway/src/services/__tests__/lead-service.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/alert-service.ts",
+      "normalized_path": "apps/api-gateway/src/services/alert-service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/billing.service.ts",
+      "normalized_path": "apps/api-gateway/src/services/billing.service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/calendar-service.ts",
+      "normalized_path": "apps/api-gateway/src/services/calendar-service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/contract-service.ts",
+      "normalized_path": "apps/api-gateway/src/services/contract-service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/customer-service.ts",
+      "normalized_path": "apps/api-gateway/src/services/customer-service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/deal-service.ts",
+      "normalized_path": "apps/api-gateway/src/services/deal-service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/financial-service.ts",
+      "normalized_path": "apps/api-gateway/src/services/financial-service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/job-check-service.ts",
+      "normalized_path": "apps/api-gateway/src/services/job-check-service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/lead-service.ts",
+      "normalized_path": "apps/api-gateway/src/services/lead-service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/lead.service.ts",
+      "normalized_path": "apps/api-gateway/src/services/lead.service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/llm-client.ts",
+      "normalized_path": "apps/api-gateway/src/services/llm-client.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/marketing-service.ts",
+      "normalized_path": "apps/api-gateway/src/services/marketing-service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/services/proposal-service.ts",
+      "normalized_path": "apps/api-gateway/src/services/proposal-service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/swagger.yaml",
+      "normalized_path": "apps/api-gateway/src/swagger.yaml",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/websocket",
+      "normalized_path": "apps/api-gateway/src/websocket",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/src/websocket/realtime-hub.ts",
+      "normalized_path": "apps/api-gateway/src/websocket/realtime-hub.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/api-gateway/tsconfig.json",
+      "normalized_path": "apps/api-gateway/tsconfig.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/.env.local.example",
+      "normalized_path": "apps/dashboard/.env.local.example",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/__tests__/platform-i18n.test.ts",
+      "normalized_path": "apps/dashboard/__tests__/platform-i18n.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/__tests__/sanitize.test.ts",
+      "normalized_path": "apps/dashboard/__tests__/sanitize.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(app)/agents",
+      "normalized_path": "apps/dashboard/app/(app)/agents",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(app)/agents/page.tsx",
+      "normalized_path": "apps/dashboard/app/(app)/agents/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(app)/settings",
+      "normalized_path": "apps/dashboard/app/(app)/settings",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(app)/settings/billing",
+      "normalized_path": "apps/dashboard/app/(app)/settings/billing",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(app)/settings/billing/page.tsx",
+      "normalized_path": "apps/dashboard/app/(app)/settings/billing/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(auth)/login",
+      "normalized_path": "apps/dashboard/app/(auth)/login",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(auth)/login/page.tsx",
+      "normalized_path": "apps/dashboard/app/(auth)/login/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(auth)/register",
+      "normalized_path": "apps/dashboard/app/(auth)/register",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(auth)/register/page.tsx",
+      "normalized_path": "apps/dashboard/app/(auth)/register/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(auth)/reset-password",
+      "normalized_path": "apps/dashboard/app/(auth)/reset-password",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(auth)/reset-password/page.tsx",
+      "normalized_path": "apps/dashboard/app/(auth)/reset-password/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(auth)/verify-email",
+      "normalized_path": "apps/dashboard/app/(auth)/verify-email",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/(auth)/verify-email/page.tsx",
+      "normalized_path": "apps/dashboard/app/(auth)/verify-email/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/analytics/page.tsx",
+      "normalized_path": "apps/dashboard/app/analytics/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/api/sales-os",
+      "normalized_path": "apps/dashboard/app/api/sales-os",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/api/sales-os/chat",
+      "normalized_path": "apps/dashboard/app/api/sales-os/chat",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/api/sales-os/chat/route.ts",
+      "normalized_path": "apps/dashboard/app/api/sales-os/chat/route.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/api/sales/generate",
+      "normalized_path": "apps/dashboard/app/api/sales/generate",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/api/sales/generate/route.ts",
+      "normalized_path": "apps/dashboard/app/api/sales/generate/route.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/api/session",
+      "normalized_path": "apps/dashboard/app/api/session",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/api/session/login",
+      "normalized_path": "apps/dashboard/app/api/session/login",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/api/session/login/route.ts",
+      "normalized_path": "apps/dashboard/app/api/session/login/route.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/api/session/logout",
+      "normalized_path": "apps/dashboard/app/api/session/logout",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/api/session/logout/route.ts",
+      "normalized_path": "apps/dashboard/app/api/session/logout/route.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/atividades/page.tsx",
+      "normalized_path": "apps/dashboard/app/atividades/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/contratos/page.tsx",
+      "normalized_path": "apps/dashboard/app/contratos/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/dashboard/chat",
+      "normalized_path": "apps/dashboard/app/dashboard/chat",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/dashboard/chat/page.tsx",
+      "normalized_path": "apps/dashboard/app/dashboard/chat/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/dashboard/layout.tsx",
+      "normalized_path": "apps/dashboard/app/dashboard/layout.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/dashboard/logs",
+      "normalized_path": "apps/dashboard/app/dashboard/logs",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/dashboard/logs/page.tsx",
+      "normalized_path": "apps/dashboard/app/dashboard/logs/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/dashboard/metrics",
+      "normalized_path": "apps/dashboard/app/dashboard/metrics",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/dashboard/metrics/page.tsx",
+      "normalized_path": "apps/dashboard/app/dashboard/metrics/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/dashboard/pipeline",
+      "normalized_path": "apps/dashboard/app/dashboard/pipeline",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/dashboard/pipeline/page.tsx",
+      "normalized_path": "apps/dashboard/app/dashboard/pipeline/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/financeiro/page.tsx",
+      "normalized_path": "apps/dashboard/app/financeiro/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/health-score",
+      "normalized_path": "apps/dashboard/app/health-score",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/health-score/page.tsx",
+      "normalized_path": "apps/dashboard/app/health-score/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/pipeline/page.tsx",
+      "normalized_path": "apps/dashboard/app/pipeline/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/app/sales/page.tsx",
+      "normalized_path": "apps/dashboard/app/sales/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/agent-activity-log.tsx",
+      "normalized_path": "apps/dashboard/components/agent-activity-log.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/analytics-board.tsx",
+      "normalized_path": "apps/dashboard/components/analytics-board.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/auth-provider.tsx",
+      "normalized_path": "apps/dashboard/components/auth-provider.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/contracts-board.tsx",
+      "normalized_path": "apps/dashboard/components/contracts-board.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/experience-lab.tsx",
+      "normalized_path": "apps/dashboard/components/experience-lab.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/health-score-board.tsx",
+      "normalized_path": "apps/dashboard/components/health-score-board.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/nav-links.tsx",
+      "normalized_path": "apps/dashboard/components/nav-links.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/pipeline-board.tsx",
+      "normalized_path": "apps/dashboard/components/pipeline-board.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/platform-provider.tsx",
+      "normalized_path": "apps/dashboard/components/platform-provider.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/platform-settings.tsx",
+      "normalized_path": "apps/dashboard/components/platform-settings.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/realtime-banner.tsx",
+      "normalized_path": "apps/dashboard/components/realtime-banner.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/sales-os",
+      "normalized_path": "apps/dashboard/components/sales-os",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/sales-os/ChatMentor.tsx",
+      "normalized_path": "apps/dashboard/components/sales-os/ChatMentor.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/sales-os/ChatMessage.tsx",
+      "normalized_path": "apps/dashboard/components/sales-os/ChatMessage.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/sales-os/GridView.tsx",
+      "normalized_path": "apps/dashboard/components/sales-os/GridView.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/sales-os/Header.tsx",
+      "normalized_path": "apps/dashboard/components/sales-os/Header.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/sales-os/HubView.tsx",
+      "normalized_path": "apps/dashboard/components/sales-os/HubView.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/sales-os/RoleplayView.tsx",
+      "normalized_path": "apps/dashboard/components/sales-os/RoleplayView.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/sales-os/ToolCard.tsx",
+      "normalized_path": "apps/dashboard/components/sales-os/ToolCard.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/sales-os/ToolView.tsx",
+      "normalized_path": "apps/dashboard/components/sales-os/ToolView.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/session-actions.tsx",
+      "normalized_path": "apps/dashboard/components/session-actions.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/sidebar.tsx",
+      "normalized_path": "apps/dashboard/components/sidebar.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/components/tenant-live-feed.tsx",
+      "normalized_path": "apps/dashboard/components/tenant-live-feed.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/api-client.ts",
+      "normalized_path": "apps/dashboard/lib/api-client.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/auth/session-token.ts",
+      "normalized_path": "apps/dashboard/lib/auth/session-token.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/auth/session.ts",
+      "normalized_path": "apps/dashboard/lib/auth/session.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/dashboard-data.ts",
+      "normalized_path": "apps/dashboard/lib/dashboard-data.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/platform-i18n.ts",
+      "normalized_path": "apps/dashboard/lib/platform-i18n.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sales-os/__tests__",
+      "normalized_path": "apps/dashboard/lib/sales-os/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sales-os/__tests__/api-schema.test.ts",
+      "normalized_path": "apps/dashboard/lib/sales-os/__tests__/api-schema.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sales-os/__tests__/constants.test.ts",
+      "normalized_path": "apps/dashboard/lib/sales-os/__tests__/constants.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sales-os/constants.ts",
+      "normalized_path": "apps/dashboard/lib/sales-os/constants.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sales-os/schemas.ts",
+      "normalized_path": "apps/dashboard/lib/sales-os/schemas.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sales-os/services",
+      "normalized_path": "apps/dashboard/lib/sales-os/services",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sales-os/services/__tests__",
+      "normalized_path": "apps/dashboard/lib/sales-os/services/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sales-os/services/__tests__/gemini.test.ts",
+      "normalized_path": "apps/dashboard/lib/sales-os/services/__tests__/gemini.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sales-os/services/gemini.ts",
+      "normalized_path": "apps/dashboard/lib/sales-os/services/gemini.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sales-os/services/storage.ts",
+      "normalized_path": "apps/dashboard/lib/sales-os/services/storage.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sales-os/types.ts",
+      "normalized_path": "apps/dashboard/lib/sales-os/types.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sanitize-html.ts",
+      "normalized_path": "apps/dashboard/lib/sanitize-html.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/sanitize.ts",
+      "normalized_path": "apps/dashboard/lib/sanitize.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/lib/supabase.ts",
+      "normalized_path": "apps/dashboard/lib/supabase.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/next.config.mjs",
+      "normalized_path": "apps/dashboard/next.config.mjs",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/pages/api/_utils",
+      "normalized_path": "apps/dashboard/pages/api/_utils",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/pages/api/_utils/auth.ts",
+      "normalized_path": "apps/dashboard/pages/api/_utils/auth.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/pages/api/ai/gemini.ts",
+      "normalized_path": "apps/dashboard/pages/api/ai/gemini.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/pages/api/dashboard",
+      "normalized_path": "apps/dashboard/pages/api/dashboard",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/pages/api/dashboard/agent-statuses.ts",
+      "normalized_path": "apps/dashboard/pages/api/dashboard/agent-statuses.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/pages/api/dashboard/billing-summary.ts",
+      "normalized_path": "apps/dashboard/pages/api/dashboard/billing-summary.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/pages/api/dashboard/metrics.ts",
+      "normalized_path": "apps/dashboard/pages/api/dashboard/metrics.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/pages/api/dashboard/recent-tasks.ts",
+      "normalized_path": "apps/dashboard/pages/api/dashboard/recent-tasks.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/postcss.config.mjs",
+      "normalized_path": "apps/dashboard/postcss.config.mjs",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/analytics",
+      "normalized_path": "apps/dashboard/src/app/analytics",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/analytics/page.tsx",
+      "normalized_path": "apps/dashboard/src/app/analytics/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/contracts",
+      "normalized_path": "apps/dashboard/src/app/contracts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/contracts/page.tsx",
+      "normalized_path": "apps/dashboard/src/app/contracts/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/customers",
+      "normalized_path": "apps/dashboard/src/app/customers",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/customers/page.tsx",
+      "normalized_path": "apps/dashboard/src/app/customers/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/deals/page.tsx",
+      "normalized_path": "apps/dashboard/src/app/deals/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/finance",
+      "normalized_path": "apps/dashboard/src/app/finance",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/finance/page.tsx",
+      "normalized_path": "apps/dashboard/src/app/finance/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/globals.css",
+      "normalized_path": "apps/dashboard/src/app/globals.css",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/layout.tsx",
+      "normalized_path": "apps/dashboard/src/app/layout.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/logs/page.tsx",
+      "normalized_path": "apps/dashboard/src/app/logs/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/app/page.tsx",
+      "normalized_path": "apps/dashboard/src/app/page.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/components/dashboard-shell.tsx",
+      "normalized_path": "apps/dashboard/src/components/dashboard-shell.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/components/health-board.tsx",
+      "normalized_path": "apps/dashboard/src/components/health-board.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/components/kanban-board.tsx",
+      "normalized_path": "apps/dashboard/src/components/kanban-board.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/components/realtime-provider.tsx",
+      "normalized_path": "apps/dashboard/src/components/realtime-provider.tsx",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/src/lib/data.ts",
+      "normalized_path": "apps/dashboard/src/lib/data.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/tailwind.config.ts",
+      "normalized_path": "apps/dashboard/tailwind.config.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/test-config/playwright.config.ts",
+      "normalized_path": "apps/dashboard/test-config/playwright.config.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/test-results/.last-run.json",
+      "normalized_path": "apps/dashboard/test-results/.last-run.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/dashboard/tests/e2e/sales-os.spec.ts",
+      "normalized_path": "apps/dashboard/tests/e2e/sales-os.spec.ts",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/voice-engine/package.json",
+      "normalized_path": "apps/voice-engine/package.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/voice-engine/src/server.ts",
+      "normalized_path": "apps/voice-engine/src/server.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/voice-engine/tsconfig.json",
+      "normalized_path": "apps/voice-engine/tsconfig.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/webhook-receiver/.gitkeep",
+      "normalized_path": "apps/webhook-receiver/.gitkeep",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/webhook-receiver/requirements.txt",
+      "normalized_path": "apps/webhook-receiver/requirements.txt",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/apps/webhook-receiver/src/server.ts",
+      "normalized_path": "apps/webhook-receiver/src/server.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/docs/api/operacao-api-gateway.md",
+      "normalized_path": "docs/api/operacao-api-gateway.md",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/docs/contracts/internal-versioned-contracts.md",
+      "normalized_path": "docs/contracts/internal-versioned-contracts.md",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/docs/runbooks/critical-incidents.md",
+      "normalized_path": "docs/runbooks/critical-incidents.md",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/docs/runbooks/db-backup-restore.md",
+      "normalized_path": "docs/runbooks/db-backup-restore.md",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/docs/runbooks/dod-sprint-bloco-template.md",
+      "normalized_path": "docs/runbooks/dod-sprint-bloco-template.md",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/docs/runbooks/playbook-operacional-agentes-comerciais.md",
+      "normalized_path": "docs/runbooks/playbook-operacional-agentes-comerciais.md",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/infra/monitoring/alert.rules.yml",
+      "normalized_path": "infra/monitoring/alert.rules.yml",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/infra/monitoring/grafana-dashboard.json",
+      "normalized_path": "infra/monitoring/grafana-dashboard.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/infra/terraform/modules/cloudsql.tf",
+      "normalized_path": "infra/terraform/modules/cloudsql.tf",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/infra/terraform/modules/iam.tf",
+      "normalized_path": "infra/terraform/modules/iam.tf",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/infra/terraform/modules/redis.tf",
+      "normalized_path": "infra/terraform/modules/redis.tf",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/infra/terraform/modules/secrets.tf",
+      "normalized_path": "infra/terraform/modules/secrets.tf",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/agent-runtime/index.ts",
+      "normalized_path": "packages/agent-runtime/index.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/agent-runtime/package.json",
+      "normalized_path": "packages/agent-runtime/package.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/agent-runtime/src/__tests__",
+      "normalized_path": "packages/agent-runtime/src/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/agent-runtime/src/__tests__/runtime.test.ts",
+      "normalized_path": "packages/agent-runtime/src/__tests__/runtime.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/agent-runtime/tsconfig.json",
+      "normalized_path": "packages/agent-runtime/tsconfig.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/auth/src/__tests__/auth.test.ts",
+      "normalized_path": "packages/auth/src/__tests__/auth.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/billing/src/__tests__",
+      "normalized_path": "packages/billing/src/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/billing/src/__tests__/billing.test.ts",
+      "normalized_path": "packages/billing/src/__tests__/billing.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/billing/tsconfig.json",
+      "normalized_path": "packages/billing/tsconfig.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/conversation-core/index.ts",
+      "normalized_path": "packages/conversation-core/index.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/conversation-core/package.json",
+      "normalized_path": "packages/conversation-core/package.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/conversation-core/src",
+      "normalized_path": "packages/conversation-core/src",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/conversation-core/src/__tests__",
+      "normalized_path": "packages/conversation-core/src/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/conversation-core/src/__tests__/service.test.ts",
+      "normalized_path": "packages/conversation-core/src/__tests__/service.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/conversation-core/src/service.ts",
+      "normalized_path": "packages/conversation-core/src/service.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/conversation-core/tsconfig.json",
+      "normalized_path": "packages/conversation-core/tsconfig.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/.turbo/turbo-build.log",
+      "normalized_path": "packages/db/.turbo/turbo-build.log",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260222120000_init",
+      "normalized_path": "packages/db/prisma/migrations/20260222120000_init",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260222120000_init/migration.sql",
+      "normalized_path": "packages/db/prisma/migrations/20260222120000_init/migration.sql",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260222153000_perf_indexes",
+      "normalized_path": "packages/db/prisma/migrations/20260222153000_perf_indexes",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260222153000_perf_indexes/migration.sql",
+      "normalized_path": "packages/db/prisma/migrations/20260222153000_perf_indexes/migration.sql",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260223090000_sprint3_operational_data",
+      "normalized_path": "packages/db/prisma/migrations/20260223090000_sprint3_operational_data",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260223090000_sprint3_operational_data/migration.sql",
+      "normalized_path": "packages/db/prisma/migrations/20260223090000_sprint3_operational_data/migration.sql",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260223100000_tenant_foundation",
+      "normalized_path": "packages/db/prisma/migrations/20260223100000_tenant_foundation",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260223100000_tenant_foundation/migration.sql",
+      "normalized_path": "packages/db/prisma/migrations/20260223100000_tenant_foundation/migration.sql",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260223101000_billing_usage",
+      "normalized_path": "packages/db/prisma/migrations/20260223101000_billing_usage",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260223101000_billing_usage/migration.sql",
+      "normalized_path": "packages/db/prisma/migrations/20260223101000_billing_usage/migration.sql",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260223102000_security_rbac",
+      "normalized_path": "packages/db/prisma/migrations/20260223102000_security_rbac",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260223102000_security_rbac/migration.sql",
+      "normalized_path": "packages/db/prisma/migrations/20260223102000_security_rbac/migration.sql",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260223103000_workflow_orchestration",
+      "normalized_path": "packages/db/prisma/migrations/20260223103000_workflow_orchestration",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260223103000_workflow_orchestration/migration.sql",
+      "normalized_path": "packages/db/prisma/migrations/20260223103000_workflow_orchestration/migration.sql",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260224000100_plan_feature",
+      "normalized_path": "packages/db/prisma/migrations/20260224000100_plan_feature",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260224000100_plan_feature/migration.sql",
+      "normalized_path": "packages/db/prisma/migrations/20260224000100_plan_feature/migration.sql",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260224083000_enterprise_models",
+      "normalized_path": "packages/db/prisma/migrations/20260224083000_enterprise_models",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/20260224083000_enterprise_models/migration.sql",
+      "normalized_path": "packages/db/prisma/migrations/20260224083000_enterprise_models/migration.sql",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/migrations/migration_lock.toml",
+      "normalized_path": "packages/db/prisma/migrations/migration_lock.toml",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/prisma/schema.prisma",
+      "normalized_path": "packages/db/prisma/schema.prisma",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/scripts/archive-agent-logs.sql",
+      "normalized_path": "packages/db/scripts/archive-agent-logs.sql",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/scripts/data-quality-check.ts",
+      "normalized_path": "packages/db/scripts/data-quality-check.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/db/scripts/restore.sh",
+      "normalized_path": "packages/db/scripts/restore.sh",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/.gitkeep",
+      "normalized_path": "packages/integrations/.gitkeep",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/index.ts",
+      "normalized_path": "packages/integrations/index.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/package.json",
+      "normalized_path": "packages/integrations/package.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/adapters",
+      "normalized_path": "packages/integrations/src/adapters",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/adapters/cache.ts",
+      "normalized_path": "packages/integrations/src/adapters/cache.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/adapters/crm-adapter-factory.ts",
+      "normalized_path": "packages/integrations/src/adapters/crm-adapter-factory.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/adapters/email-adapter-factory.ts",
+      "normalized_path": "packages/integrations/src/adapters/email-adapter-factory.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/adapters/webhook-registry.ts",
+      "normalized_path": "packages/integrations/src/adapters/webhook-registry.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/clients",
+      "normalized_path": "packages/integrations/src/clients",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/clients/calendar.ts",
+      "normalized_path": "packages/integrations/src/clients/calendar.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/clients/crm.ts",
+      "normalized_path": "packages/integrations/src/clients/crm.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/clients/fiscal.ts",
+      "normalized_path": "packages/integrations/src/clients/fiscal.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/clients/http.ts",
+      "normalized_path": "packages/integrations/src/clients/http.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/clients/llm.ts",
+      "normalized_path": "packages/integrations/src/clients/llm.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/clients/payments-br.ts",
+      "normalized_path": "packages/integrations/src/clients/payments-br.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/clients/signatures.ts",
+      "normalized_path": "packages/integrations/src/clients/signatures.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/clients/social-ads.ts",
+      "normalized_path": "packages/integrations/src/clients/social-ads.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/clients/svix.ts",
+      "normalized_path": "packages/integrations/src/clients/svix.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/src/index.ts",
+      "normalized_path": "packages/integrations/src/index.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/test-integrations.ts",
+      "normalized_path": "packages/integrations/test-integrations.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/integrations/tsconfig.json",
+      "normalized_path": "packages/integrations/tsconfig.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/llm-client/package.json",
+      "normalized_path": "packages/llm-client/package.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/llm-client/scripts/test-llm.ts",
+      "normalized_path": "packages/llm-client/scripts/test-llm.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/llm-client/src/index.ts",
+      "normalized_path": "packages/llm-client/src/index.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/llm-client/test-llm.ts",
+      "normalized_path": "packages/llm-client/test-llm.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/llm-client/tsconfig.json",
+      "normalized_path": "packages/llm-client/tsconfig.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/queue/load-test/bullmq-load-test.ts",
+      "normalized_path": "packages/queue/load-test/bullmq-load-test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/queue/scripts/schedule-recurring-jobs.ts",
+      "normalized_path": "packages/queue/scripts/schedule-recurring-jobs.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/queue/scripts/test-queue.ts",
+      "normalized_path": "packages/queue/scripts/test-queue.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/queue/src/definitions.ts",
+      "normalized_path": "packages/queue/src/definitions.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/queue/src/workers/agent-worker.ts",
+      "normalized_path": "packages/queue/src/workers/agent-worker.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/queue/src/workers/base-worker.ts",
+      "normalized_path": "packages/queue/src/workers/base-worker.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/queue/src/workers/campaign-worker.ts",
+      "normalized_path": "packages/queue/src/workers/campaign-worker.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/queue/src/workers/index.ts",
+      "normalized_path": "packages/queue/src/workers/index.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/queue/src/workers/report-worker.ts",
+      "normalized_path": "packages/queue/src/workers/report-worker.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/queue/src/workers/webhook-worker.ts",
+      "normalized_path": "packages/queue/src/workers/webhook-worker.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/queue/tests/workers.test.ts",
+      "normalized_path": "packages/queue/tests/workers.test.ts",
+      "category": "tests",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/security/package.json",
+      "normalized_path": "packages/security/package.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/security/src/__tests__",
+      "normalized_path": "packages/security/src/__tests__",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/security/src/__tests__/security.test.ts",
+      "normalized_path": "packages/security/src/__tests__/security.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/security/tsconfig.json",
+      "normalized_path": "packages/security/tsconfig.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/shared-types/.gitkeep",
+      "normalized_path": "packages/shared-types/.gitkeep",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/shared-types/package.json",
+      "normalized_path": "packages/shared-types/package.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/shared-types/src/index.ts",
+      "normalized_path": "packages/shared-types/src/index.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/shared-types/src/schemas",
+      "normalized_path": "packages/shared-types/src/schemas",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/shared-types/src/schemas/leads.ts",
+      "normalized_path": "packages/shared-types/src/schemas/leads.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/shared-types/tsconfig.json",
+      "normalized_path": "packages/shared-types/tsconfig.json",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/shared/errors/index.ts",
+      "normalized_path": "packages/shared/errors/index.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/utils/src/__tests__/sleep.test.ts",
+      "normalized_path": "packages/utils/src/__tests__/sleep.test.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/packages/utils/src/app-error.ts",
+      "normalized_path": "packages/utils/src/app-error.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/tests/e2e/critical-routes.spec.ts",
+      "normalized_path": "tests/e2e/critical-routes.spec.ts",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/tests/integration/test_agents_expanded_tools_realism.py",
+      "normalized_path": "tests/integration/test_agents_expanded_tools_realism.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/tests/integration/test_agents_tooling_coverage.py",
+      "normalized_path": "tests/integration/test_agents_tooling_coverage.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/tests/integration/test_internal_service_auth.py",
+      "normalized_path": "tests/integration/test_internal_service_auth.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/tests/integration/test_internal_service_auth_additional_agents.py",
+      "normalized_path": "tests/integration/test_internal_service_auth_additional_agents.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/tests/integration/test_orchestrator_event_reliability.py",
+      "normalized_path": "tests/integration/test_orchestrator_event_reliability.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/tests/integration/test_orchestrator_flow_payloads.py",
+      "normalized_path": "tests/integration/test_orchestrator_flow_payloads.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/tests/integration/test_orchestrator_operational_endpoints.py",
+      "normalized_path": "tests/integration/test_orchestrator_operational_endpoints.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    },
+    {
+      "original_path": "SAAS-BIRTHUB-AGENTES-360/SAAS-BIRTHUB-AGENTES-360-feat-infrastructure-setup-15623658192058876732/tests/integration/test_security_hardening.py",
+      "normalized_path": "tests/integration/test_security_hardening.py",
+      "category": "other",
+      "hash": "unavailable_without_extraction"
+    }
+  ]
+}
